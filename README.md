@@ -78,5 +78,5 @@ img {
 ## Author
 
 - LinkedIn Profile - [mdsaimunrahman](https://www.linkedin.com/in/mdsaimunrahman/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/iamsaimun)
+- Frontend Mentor - [iamsaimun](https://www.frontendmentor.io/profile/iamsaimun)
 - Twitter - [@saimunrahman01](https://x.com/SaimunRahman01)
