@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Figtree-Regular;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf),
+}
+
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: Figtree-Regular;
+}
+
+:root{
+    --background-color:hsl(47, 88%, 63%);
+    --card-background:hsl(0, 0%, 100%);
+    --heading-color:hsl(0, 0%, 7%);
+    --primary-text-color:hsl(0, 0%, 42%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--background-color);
+    height: 100vh;
+
+}
+h1{
+    display: inline-block;
+    font-weight: 800;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--card-background);
+    max-width: 19rem;
+    padding: 1rem;
+    border: black solid 0.1rem;
+    border-radius: 1.5rem;
+    box-shadow: black 0.5rem 0.5rem ;
+}
+
+article section h1:hover{
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+article section img{
+    border-radius: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+article section p{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: var(--primary-text-color);
+}
+article section .tag {
+    display: inline-block;
+    padding: 0.4rem 0.7rem;
+    background-color: var(--background-color);
+    border-radius: 0.2rem;
+}
+article section .date{
+    font-weight: normal;
+}
+article .author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0.8rem;
+    font-weight: 800;
+    font-size: 1rem;
+}
+article .author img {
+    width: 2rem;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
